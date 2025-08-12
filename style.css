@@ -7,7 +7,8 @@
     justify-content:space-around;
     align-items: center;
     background-color: cadetblue;
-    border: 2px green solid;
+    border: 5px green solid;
+    padding:50px 20px;
 }
 .row1,
 .row2,
@@ -20,14 +21,21 @@
 .digits,
 .operator,
 .clear{
+    box-sizing: border-box;
     background-color: green;
     color:white;
-    height: 70px;
-    width: 70px;
-    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    border-radius: 30%;
     text-align: center;
     font-size: 30px;
     line-height: 70px;
+}
+.digits:hover,
+.operator:hover,
+.clear:hover{
+    opacity: 50%;
+    border:3px solid white;
 }
 .operator,
 .clear{
@@ -44,7 +52,7 @@
     width: 470px;
     box-sizing: border-box;
     text-align: right;
-    font-size: 40px;
+    font-size: 50px;
     padding: 15px;
     background-color: black;
     color: white;
