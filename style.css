@@ -35,9 +35,14 @@
 .digits:hover,
 .operator:hover,
 .clear:hover{
-    opacity: 50%;
+    opacity: 0.5;
     border:3px solid white;
 }
+.equal:hover {
+    opacity: 0.5;
+    border: 3px solid white;
+}
+
 .operator,
 .clear{
     background-color :blue;
